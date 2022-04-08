@@ -27,3 +27,6 @@ local function AAInverter()
 end
 
 callbacks.Register("Draw", AAInverter)
+
+aatoggle:SetDescription("Enable anti-aim inverter.")
+aainv:SetDescription("Choose the inverter keybind.")
