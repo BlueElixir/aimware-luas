@@ -1,4 +1,7 @@
-To start using this LUA you need:
+To start using this LUA you need to:
 1. Load LUA script in menu;
 2. Go to "Legitbot" -> "Semirage"
 3. At the bottom of the "Anti-Aim" box, enable "Toggle Inverter" and choose a key.
+
+Don't forget to enable "Toggle Inverter" and bind a key or the script won't work!
+This is made to use with legit antiaim only.
