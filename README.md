@@ -24,3 +24,6 @@ LUA scripts made for aimware.net
 
   Each script has its own usage scenario. For example, "Legit" scripts should be used when playing Legit. 
   Every script is unique, so there will be instructions on how to use it.
+
+
+**If you need some lua script but you can't find it anywhere pm 404765 on forums**
