@@ -36,9 +36,9 @@ local function AAInverter()
 		if aasideind:GetValue() == true then
 			draw.SetFont(font)
 			draw.Color(aaindcolour:GetValue())
-			if gui.GetValue("lbot.antiaim.leftkey") ~= 0 and gui.GetValue("lbot.antiaim.rightkey") == 0 then
+			if gui.GetValue("lbot.antiaim.leftkey") == 0 and gui.GetValue("lbot.antiaim.rightkey") ~= 0 then
 				draw.Text(rightind+offset:GetValue(), screenheight/2-10, ">")
-			elseif gui.GetValue("lbot.antiaim.leftkey") == 0 and gui.GetValue("lbot.antiaim.rightkey") ~= 0 then
+			elseif gui.GetValue("lbot.antiaim.leftkey") ~= 0 and gui.GetValue("lbot.antiaim.rightkey") == 0 then
 				draw.Text(leftind-offset:GetValue(), screenheight/2-10, "<")
 			end
 		end
