@@ -4,7 +4,7 @@ local aatoggle = gui.Checkbox(aabox, "aatoggle", "Toggle Inverter", false)
 local aainv = gui.Keybox(aabox, "aainvkey", "Anti-Aim Inverter", 0)
 local aasideind = gui.Checkbox(aabox, "aaindicator", "Anti-Aim Side Indicator", false)
 local aaindcolour = gui.ColorPicker(aasideind, "aaindcolour", "Indicator Colour", 255, 255, 255, 255)
-local offset = gui.Slider(aabox, "aaindoffset", "Indicator Horizontal Offset", "0", "0", "100")
+local offset = gui.Slider(aabox, "aaindoffset", "Indicator Offset", "0", "0", "200")
 local screenwidth, screenheight = draw.GetScreenSize()
 local leftind = screenwidth/2 - 50
 local rightind = screenwidth/2 + 30
@@ -49,3 +49,5 @@ callbacks.Register("Draw", AAInverter)
 
 aatoggle:SetDescription("Enable anti-aim inverter.")
 aainv:SetDescription("Choose the inverter keybind.")
+aasideind:SetDescription("Very basic anti-aim side indicator.")
+offset:SetDescription("Move the indicators horizontally.")
