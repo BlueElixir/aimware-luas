@@ -33,7 +33,7 @@ local aaright = "lbot.antiaim.rightkey"
 local value = 1
 
 local function AAInverter()
-    if aatoggle:GetValue() == true then
+    if aatoggle:GetValue() == true and gui.GetValue("lbot.master") == true then
 		if aainv:GetValue() ~= 0 then
 			gui.SetValue("lbot.antiaim.direction", 1)
 			if input.IsButtonPressed(aainv:GetValue()) then
