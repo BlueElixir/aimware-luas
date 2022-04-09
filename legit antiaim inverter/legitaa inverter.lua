@@ -34,7 +34,7 @@ local value = 1
 
 local function AAInverter()
     if aatoggle:GetValue() == true and gui.GetValue("lbot.master") == true then
-		if aainv:GetValue() ~= 0 then
+		if aainv:GetValue() ~= 0 and gui.GetValue("lbot.antiaim.type") ~= '"Off"' then
 			gui.SetValue("lbot.antiaim.direction", 1)
 			if input.IsButtonPressed(aainv:GetValue()) then
 				if not gui.Reference("Menu"):IsActive() then
@@ -62,12 +62,12 @@ local function AAInverter()
 		if aasideind:GetValue() == true then
 			draw.SetFont(font)
 			
-			if value == 2 then
+			if value == 2 and gui.GetValue("lbot.antiaim.type") ~= '"Off"' then
 				draw.Color(aaindcolour:GetValue())
 				draw.Text(rightind+offset:GetValue(), screenheight/2-10, rightIndicator)
 				draw.Color(107, 107, 107, 150)
 				draw.Text(leftind-offset:GetValue(), screenheight/2-10, leftIndicator)
-			elseif value == 1 then
+			elseif value == 1 and gui.GetValue("lbot.antiaim.type") ~= '"Off"' then
 				draw.Color(aaindcolour:GetValue())
 				draw.Text(leftind-offset:GetValue(), screenheight/2-10, leftIndicator)
 				draw.Color(107, 107, 107, 150)
