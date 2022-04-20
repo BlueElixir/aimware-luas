@@ -85,5 +85,5 @@ callbacks.Register("Draw", AAInverter)
 
 aatoggle:SetDescription("Enable anti-aim inverter.")
 aainv:SetDescription("Choose the inverter keybind.")
-aasideind:SetDescription("Very basic anti-aim side indicator.")
-offset:SetDescription("Move the indicators horizontally.")
+aasideind:SetDescription("Enable anti-aim side indicator.")
+offset:SetDescription("Adjust horizontal indicator position.")
