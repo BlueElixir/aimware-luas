@@ -22,7 +22,7 @@ local yes = gui.Window(customHealth, "             Customish Healthbar", 100, 10
 local toggle = gui.Checkbox(yes, "toggle", "Toggle Healthbar", false)
 toggle:SetDescription("Bind to toggle on/off.")
 local healthItems = {"Off", "Team only", "Enemy only", "On"}
-local healthSelect = gui.Combobox(yes, "something2", "Mode", unpack(healthItems))
+local healthSelect = gui.Combobox(yes, "something2", "Position", unpack(healthItems))
 local hpBasedColours = gui.Checkbox(yes, "hpBasedColours", "HP Colours", false)
 hpBasedColours:SetDescription("Custom colour for 100/50/20 HP.")
 local health = nil
