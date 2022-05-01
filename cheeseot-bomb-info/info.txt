@@ -1,0 +1,10 @@
+IMPORTANT!
+This lua was made by Cheeseot (https://aimware.net/forum/user/215088), all credit belongs to him.
+
+The Lua I released is a modification of what Cheeseot posted on the forums quite some time ago.
+New stuff not found in the original Lua as of 05/01/2022:
+- improved performance (no huge fps drops when bomb is planted)
+- added a checkbox to switch from original to modified indicator positions, defaults to modified, can be turned off in "Visuals -> Overlay -> Weapon"
+
+If you find any problems with the original Lua, ask for help on the forum.
+If you find any problems with my release, PM me on the forum (404765) or make an issue on GitHub.
