@@ -22,10 +22,9 @@ local yes = gui.Window(customHealth, "             Customish Healthbar", 100, 10
 local toggle = gui.Checkbox(yes, "toggle", "Toggle Healthbar", false)
 toggle:SetDescription("Bind to toggle on/off.")
 local healthItems = {"Off", "Team only", "Enemy only", "On"}
-local healthSelect = gui.Combobox(yes, "something2", "Position", unpack(healthItems))
+local healthSelect = gui.Combobox(yes, "something2", "Mode", unpack(healthItems))
 local hpBasedColours = gui.Checkbox(yes, "hpBasedColours", "HP Colours", false)
 hpBasedColours:SetDescription("Custom colour for 100/50/20 HP.")
-local health = nil
 --local colourItems = {"Off", "1", "2", "3"}                                                            soon
 --local hpBasedColours = gui.Combobox(yes, "hpBasedColours", "HP Based Colours", unpack(colourItems))   soon
 --hpBasedColours:SetDescription("Custom colour for certain amounts of HP.")                             soon
@@ -58,16 +57,9 @@ position:SetDescription("Choose healthbar position.")
 
 local function esp(builder)
     local localPlayer = entities.GetLocalPlayer();
-    local ent = builder:GetEntity();
+    ent = builder:GetEntity();
     health = ent:GetHealth()
-    if hpBasedColours:GetValue() then
-        colourEnemy:SetInvisible(true)
-        colourEnemyNumber:SetInvisible(true)
-        colourTeam:SetInvisible(true)
-        colourTeamNumber:SetInvisible(true)
-        hp1:SetInvisible(false)
-        hp2:SetInvisible(false)
-        hp3:SetInvisible(false)
+    if toggle:GetValue() then
         if ent:IsPlayer() then
             if health >= healthAmt1 then
                 colourEnemyHp:SetValue(hp1:GetValue())
@@ -86,16 +78,6 @@ local function esp(builder)
                 colourTeamNumberHp:SetValue(hp3:GetValue())
             end
         end
-    else
-        colourEnemy:SetInvisible(false)
-        colourEnemyNumber:SetInvisible(false)
-        colourTeam:SetInvisible(false)
-        colourTeamNumber:SetInvisible(false)
-        hp1:SetInvisible(true)
-        hp2:SetInvisible(true)
-        hp3:SetInvisible(true)
-    end
-    if toggle:GetValue() then
         if healthSelect:GetValue() == 0 then
             return
         elseif healthSelect:GetValue() == 1 then
@@ -236,6 +218,26 @@ local function esp(builder)
         end
     end
 end
+callbacks.Register("Draw", function()
+    if hpBasedColours:GetValue() then
+        colourEnemy:SetInvisible(true)
+        colourEnemyNumber:SetInvisible(true)
+        colourTeam:SetInvisible(true)
+        colourTeamNumber:SetInvisible(true)
+        hp1:SetInvisible(false)
+        hp2:SetInvisible(false)
+        hp3:SetInvisible(false)
+    else
+        colourEnemy:SetInvisible(false)
+        colourEnemyNumber:SetInvisible(false)
+        colourTeam:SetInvisible(false)
+        colourTeamNumber:SetInvisible(false)
+        hp1:SetInvisible(true)
+        hp2:SetInvisible(true)
+        hp3:SetInvisible(true)
+    end
+end)
+
 callbacks.Register("Draw", function()
     if not gui.Reference("Menu"):IsActive() then
         yes:SetInvisible(true)
