@@ -411,7 +411,7 @@ callbacks.Register("Draw", function()
 				end
 			elseif i == 4 then
 				if gui.GetValue(miscOtherVariables[1]) and gui.GetValue(miscOtherVariables[3]) then
-					if gui.GetValue(miscOtherVariables[7]) ~= nil then
+					if gui.GetValue(miscOtherVariables[7]) ~= nil and gui.GetValue(miscOtherVariables[7]) ~= 0 then
 						if input.IsButtonDown(gui.GetValue(miscOtherVariables[7])) then
 							draw.Color(unpack(indicatorItems.toggleColours[3]))
 						end
