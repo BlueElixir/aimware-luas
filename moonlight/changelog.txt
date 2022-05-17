@@ -1,0 +1,45 @@
+v0.1 release 08-05-2022
+
+- added indicators and watermark
+- added bindable backtrack switcher (from 0 to 50, from 50 to 100 etc.)
+- added backtrack randomisation
+- added option to change triggerbot values for multiple weapon groups at the same time
+- added bindable esp toggle
+- added aspect ratio changer
+- added viewmodel / autoexec / custom moonlight theme import
+
+
+v0.2 release 09-05-2022
+
+- added more options to esp toggle
+- added esp on dead
+- improved version check logic
+
+
+v0.3 release 10-05-2022
+
+- added engine radar
+- added start/stop mm queue buttons
+- added separate toggle for other settings in esp tab
+- added ping to watermark
+- fixed esp on dead
+- changed default aspect ratio value to 178 instead of 177
+- improved esp toggle logic
+- has defuser esp flag now properly saves with config
+
+
+v0.4 release 16-05-2022
+
+- added full support for Customish Healthbar lua
+- added toggleable moonlight logo to watermark
+- added toggleable box around indicators
+- added website and update buttons when script is outdated
+- fixed not having a triggerbot key set spamming console and messing up indicators
+
+
+v0.5 release 18/19-05-2022 (planned)
+- added custom spectator list
+- added new style of indicators
+- added option to switch between old and new styles of indicators
+- added force crosshair on snipers
+- more stuff coming later
