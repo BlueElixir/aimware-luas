@@ -37,7 +37,7 @@ v0.4 release 16-05-2022
 - fixed not having a triggerbot key set spamming console and messing up indicators
 
 
-v0.5 release 18/19-05-2022 (planned)
+v0.5 release 18/19-05-2022 (delayed, no eta)
 - added custom spectator list
 - added new style of indicators
 - added option to switch between old and new styles of indicators
