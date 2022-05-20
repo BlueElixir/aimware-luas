@@ -37,9 +37,12 @@ v0.4 release 16-05-2022
 - fixed not having a triggerbot key set spamming console and messing up indicators
 
 
-v0.5 release 18/19-05-2022 (delayed, no eta)
+v0.5 release 20-05-2022
 - added custom spectator list
 - added new style of indicators
 - added option to switch between old and new styles of indicators
 - added force crosshair on snipers
-- more stuff coming later
+
+
+v0.6 no eta
+- post your suggestions on the forums or dm me on discord @ BlueElixir#0001
