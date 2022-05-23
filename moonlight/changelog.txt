@@ -45,4 +45,6 @@ v0.5 release 20-05-2022
 
 
 v0.6 no eta
+- currently working on spectator list user pictures
+- will try bomb information next, no promises
 - post your suggestions on the forums or dm me on discord @ BlueElixir#0001
