@@ -2,7 +2,7 @@ This folder contains other files used in moonlight.
 
 Currently, the following files are in use:
 - csgo_bot_avatar.jpg / for spectator list bot characters (might later be changed to ct/t icons, not sure)
-- moonlight.png / 
+- logo.png / logo used in watermark
 
 
 More files will appear here in the future.
