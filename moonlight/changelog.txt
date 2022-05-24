@@ -46,8 +46,10 @@ v0.5 release 20-05-2022
 
 v0.6 eta: 26-05-2022
 - added player avatars to spectator list
+- added "Spectators" to spectator list
+- added colour customisation for player names and spectator list title
 - working on automatic refresh on certain conditions
-- working on fixing small bug with esp
+- working on fixing small bug with esp (note: "healtbar" and "healthnum" aren't disabled even though "toggle healthbar" is on when esp toggle is off)
 
 
 - post your suggestions on the forums or dm me on discord @ BlueElixir#0001
