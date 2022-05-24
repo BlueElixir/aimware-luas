@@ -66,5 +66,7 @@ v0.6 eta: 26-05-2022
 v0.7 eta: n/a
 - (planned) visual rework of new indicators style (colour customisation, change from colour-based status to [on]/[off])
 - (planned) manual buybot (a bind-like buybot, configurable in the menu)
+- (planned) toggle showing avatars in spectator list
+- (planned) apply custom colour filter on avatars in spectator list
 
 - post your suggestions on the forums or dm me on discord @ BlueElixir#0001
