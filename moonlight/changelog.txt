@@ -44,7 +44,10 @@ v0.5 release 20-05-2022
 - added force crosshair on snipers
 
 
-v0.6 no eta
-- currently working on spectator list user pictures
-- will try bomb information next, no promises
+v0.6 26-05-2022
+- added player avatars to spectator list
+- working on automatic refresh on certain conditions
+- working on fixing small bug with esp
+
+
 - post your suggestions on the forums or dm me on discord @ BlueElixir#0001
