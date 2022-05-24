@@ -1,3 +1,11 @@
+IMPORTANT
+
+This changelog contains all the previous, current and near-future updates of moonlight.
+These update logs might not be 100% accurate and can be imperfect, that's just how it is.
+Update logs for future versions indicate what's (probably) coming in that version.
+
+
+
 v0.1 release 08-05-2022
 
 - added indicators and watermark
@@ -45,11 +53,18 @@ v0.5 release 20-05-2022
 
 
 v0.6 eta: 26-05-2022
+- spectator list now shows up either when someone is spectating you or menu is open
 - added player avatars to spectator list
-- added "Spectators" to spectator list
+- added title "Spectators" to spectator list
 - added colour customisation for player names and spectator list title
-- working on automatic refresh on certain conditions
-- working on fixing small bug with esp (note: "healtbar" and "healthnum" aren't disabled even though "toggle healthbar" is on when esp toggle is off)
+- added automatic avatar refresh on certain conditions
+- fixed "healthbar" and "healthnum" not being disabled if "esp toggle" is off and "toggle healthbar" is on
+- fixed "HP Colours" setting not working if esp toggle is off
+- testing out script, should be ready for release within eta
 
+
+v0.7 eta: n/a
+- (planned) visual rework of new indicators style (colour customisation, change from colour-based status to [on]/[off])
+- (planned) manual buybot (a bind-like buybot, configurable in the menu)
 
 - post your suggestions on the forums or dm me on discord @ BlueElixir#0001
