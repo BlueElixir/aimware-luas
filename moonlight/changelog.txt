@@ -60,6 +60,7 @@ v0.6 eta: 26-05-2022
 - added automatic avatar refresh on certain conditions
 - fixed "healthbar" and "healthnum" not being disabled if "esp toggle" is off and "toggle healthbar" is on
 - fixed "HP Colours" setting not working if esp toggle is off
+- added some secret easter eggs
 - testing out script, should be ready for release within eta
 
 
