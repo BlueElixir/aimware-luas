@@ -52,7 +52,7 @@ v0.5 release 20-05-2022
 - added force crosshair on snipers
 
 
-v0.6 eta: 26-05-2022
+v0.6 25-05-2022
 - spectator list now shows up either when someone is spectating you or menu is open
 - added player avatars to spectator list
 - added title "Spectators" to spectator list
@@ -60,8 +60,7 @@ v0.6 eta: 26-05-2022
 - added automatic avatar refresh on certain conditions
 - fixed "healthbar" and "healthnum" not being disabled if "esp toggle" is off and "toggle healthbar" is on
 - fixed "HP Colours" setting not working if esp toggle is off
-- added some secret easter eggs
-- testing out script, should be ready for release within eta
+- added some secret easter eggs (if you don't like them just let me know)
 
 
 v0.7 eta: n/a
