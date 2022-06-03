@@ -64,8 +64,8 @@ v0.6 25-05-2022
 
 
 v0.7 eta: n/a
+- added manual buybot (bind to a key, all options configurable in menu)
 - (planned) visual rework of new indicators style (colour customisation, change from colour-based status to [on]/[off])
-- (planned) manual buybot (a bind-like buybot, configurable in the menu)
 - (planned) toggle showing avatars in spectator list
 - (planned) apply custom colour filter on avatars in spectator list
 
