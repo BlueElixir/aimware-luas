@@ -66,6 +66,7 @@ v0.6 25-05-2022
 v0.7 eta: n/a
 - added manual buybot (bind to a key, all options configurable in menu, don't spam it unless you want to get kicked from the server)
 - added backtrack + ping (takes scoreboard ping, divides it by 1.5 and adds to backtrack, this is for legit reasons)
+- indicators now show up either when player is in game or menu is open
 - (planned) visual rework of new indicators style (colour customisation, change from colour-based status to [on]/[off])
 - (planned) toggle showing avatars in spectator list
 - (planned) apply custom colour filter on avatars in spectator list
