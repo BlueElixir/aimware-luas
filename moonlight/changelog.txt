@@ -72,10 +72,13 @@ v0.7 eta: before 10-06
   -- in the future, i might add more indicator styles, however i can't guarantee that
   -- the "new" style might be improved a bit more after this (toggles with "off" status are removed, only "on" are added, similar to speclist)
 - added toggle for showing avatars in spectator list
-- (planned) apply custom colour filter on avatars in spectator list
+- apply custom colour filter on avatars in spectator list
 - (planned) backtrack for different weapon groups
 
 
 v1.0 eta: n/a
 - (planned) bomb information with 2 different styles
+- (planned) toggles list appear/disappear when
+
+
 - post your suggestions on the forums or dm me on discord @ BlueElixir#0001
