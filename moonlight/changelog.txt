@@ -66,7 +66,7 @@ v0.6 25-05-2022
 v0.7 eta: before 10-06
 - fixed "moonlight v0.4.lua:2: attempt to index a nil value" error. if you find any more, please let me know
 - added manual buybot (bind to a key, all options configurable in menu, don't spam it unless you want to get kicked from the server)
-- added backtrack + ping (takes scoreboard ping, divides it by 1.5 and adds to backtrack, this is for legit reasons)
+- added backtrack + ping (uses scoreboard ping, 0.67 ping to bt ratio (100ms ping = 67ms backtrack + your current setting)
 - indicators now show up either when player is in game or menu is open
 - indicators "new" style improved, more in-line with what the spectator list looks like (on/off status, https://gcdnb.pbrd.co/images/BuAl9wBk9dnD.png?o=1)
   -- in the future, i might add more indicator styles, however i can't guarantee that
