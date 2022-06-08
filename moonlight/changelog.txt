@@ -71,6 +71,7 @@ v0.7 eta: 08-06
 - indicators "new" style improved, more in-line with what the spectator list looks like (on/off status, https://gcdnb.pbrd.co/images/BuAl9wBk9dnD.png?o=1)
   -- in the future, i might add more indicator styles, however i can't guarantee that
   -- the "new" style might be improved a bit more after this (toggles with "off" status are removed, only "on" are added, similar to speclist)
+- old indicator style no longer shows backtrack
 - added toggle for showing avatars in spectator list
 - added the option to apply custom colour filter on avatars in spectator list (set to white to clear it)
 - completely reworked backtrack
@@ -81,10 +82,12 @@ v0.7 eta: 08-06
   -- added bactrack + ping option (adds your ping to the backtrack time)
   -- added the option to set a custom ping multiplier (multiplier = 0.67, 100ms ping --> your current setting + 67ms)
   -- backtrack weapon group automatically changes when you switch weapons (exactly what ragebot -> accuracy does when switching weapons)
+- changed button size in "Other" -> "Imports" and "Fun" sections
 
 
 v1.0 eta: n/a
 - (planned) bomb information with 2 different styles
+- (planned) chams support for esp toggle
 
 
 - post your suggestions on the forums or dm me on discord @ BlueElixir#0001
