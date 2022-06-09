@@ -83,6 +83,7 @@ v0.7 eta: delayed to 09-06 due to bug testing and important fixes
   -- added the option to set a custom ping multiplier (multiplier = 0.67, 100ms ping --> your current setting + 67ms)
   -- backtrack weapon group automatically changes when you switch weapons (exactly what ragebot -> accuracy does when switching weapons)
 - changed button size in "Other" -> "Imports" and "Fun" sections
+- aspect ratio can now be modified more precisely and default value is now 177.7 (16:9)
 
 
 v1.0 eta: n/a
