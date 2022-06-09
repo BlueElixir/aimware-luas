@@ -63,7 +63,8 @@ v0.6 25-05-2022
 - added some secret easter eggs (if you don't like them just let me know)
 
 
-v0.7 eta: delayed to 09-06 due to bug testing and important fixes
+v0.7 eta: 09-06 (no really should come out today, just squashing some bugs)
+- added a wiki page that explains what each setting does in more detail https://github.com/BlueElixir/aimware-luas/wiki/moonlight-features-explanation-and-recommended-settings
 - fixed "moonlight v0.x.lua:2: attempt to index a nil value" error. if you find any more, please let me know
 - added manual buybot (bind to a key, all options configurable in menu, don't spam it unless you want to get kicked from the server)
   -- added option to autobuy on round start
