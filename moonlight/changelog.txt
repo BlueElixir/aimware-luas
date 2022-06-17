@@ -99,7 +99,8 @@ v0.8 eta: n/a
 v1.0 eta: n/a
 - (planned) bomb information with 2 different styles
 - (planned) chams support for esp toggle
-- (maybe) menu rework
+- (planned) fully custom menu, already working on it, will probably release for beta testing along with v0.8/v0.9
+- (planned) remove old indicators style
 
 
 - post your suggestions on the forums or dm me on discord @ BlueElixir#0001
