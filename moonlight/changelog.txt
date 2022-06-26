@@ -99,8 +99,12 @@ v0.8 eta: n/a
 v1.0 eta: n/a
 - (planned) bomb information with 2 different styles
 - (planned) chams support for esp toggle
-- (planned) fully custom menu, already working on it, will probably release for beta testing along with v0.8/v0.9
 - (planned) remove old indicators style
-
+- custom menu
+  -- custom menu is coming along nicely, but there are quite a few drawbacks for making one, for example
+    --- all menu elements have to be written from scratch
+    --- while something like checkboxes is easy to make, a combobox is a bit more challenging, it's taken me so long to try and figure it all out that i might be going crazy a little bit
+    --- some people might not like the style of the menu, but i can't do anything about that
+  -- a lot remains to be done and that's not counting everything else i wanted to add, such as bomb info and more
 
 - post your suggestions on the forums or dm me on discord @ BlueElixir#0001
