@@ -12,3 +12,18 @@ It's a full patch, so it moves all DLLs and such to where they have to be.
 ### 3. Wait for the operation to finish
 
 If everything went well, OBS will work too.
+
+<script>
+  function myFunction() {
+    var copyText = document.getElementById("myInput");
+
+    copyText.select();
+    copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+     /* Copy the text inside the text field */
+    navigator.clipboard.writeText(copyText.value);
+
+    /* Alert the copied text */
+    alert("Copied the text: " + copyText.value);
+  }
+</script>
