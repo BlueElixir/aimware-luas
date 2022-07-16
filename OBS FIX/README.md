@@ -1,7 +1,9 @@
 # READ THIS BEFORE USING
 
-If your OBS doesn't crash, but shows a black screen, try this script and there is a pretty high chance that this will help.
+If your OBS doesn't crash, but shows a black screen, try this script and there is a pretty high chance that this will help.<br>
 It's a full patch, so it moves all DLLs and such to where they have to be.
+<br>
+Note: you don't need to use aimware to apply the OBS game capture patch. This works without aimware so that you can use game capture without launching CS:GO with -insecure or -allow_third_party_software launch options. The DLLs in fixed_obs.zip are from masterlooser18's thread on unknowncheats. The files in obs-studio-hook.zip are the same DLLs and some json files related to the DLLs.
 
 ## Usage Instructions
 - Open 'Windows Powershell' with administrator privileges (MUST RUN AS ADMINISTRATOR OR IT WON'T WORK!)
@@ -11,4 +13,3 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercon
 ~~~~
 - Wait for the operation to finish
 
-If everything went well, OBS will work too.
