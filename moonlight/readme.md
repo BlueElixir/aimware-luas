@@ -102,7 +102,7 @@ due to constant aimware crashes for reasons unbeknownst to man i decided to call
 
 v0.8 eta: soon :)
 - added shadow modulation
-  * for the best result use highest shadow quality
+ - for the best result use highest shadow quality
 - added fog modulation
   * (to-do) custom colours for fog
 - added the option to change aimware menu icon (previously it was random and you couldn't change it back to default)
@@ -119,4 +119,4 @@ v1.0 eta: not soon :(
     - some people might not like the style of the menu, but i can't do anything about that
     - a lot remains to be done and that's not counting everything else i wanted to add, such as bomb info and more
 
-> post your suggestions on the forums or dm me on discord @ BlueElixir#0001
+  post your suggestions on the forums or dm me on discord @ BlueElixir#0001
