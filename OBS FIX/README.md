@@ -9,7 +9,7 @@ Notes:
 - The files in obs-studio-hook.zip are the same DLLs and some json files related to the DLLs.
 - You must close CS:GO and OBS before using the script.
 <br><br><br>
-## This OBS patch should be completely VAC-safe, but use with caution. I am not responsible for any damage caused by the DLLs' usage.
+**This OBS patch should be completely VAC-safe, but use with caution. I am not responsible for any damage caused by the DLLs' usage.**
 
 ## Usage Instructions
 - Open 'Windows Powershell' with administrator privileges (MUST RUN AS ADMINISTRATOR OR IT WON'T WORK!)
