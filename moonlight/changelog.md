@@ -88,15 +88,37 @@ v0.7 11-06-2022
 - added magnet triggerbot (uses settings from aimbot tab, force enables aimbot, recommended to bindhold to whatever you triggerbot key is!!!)
 
 
-v0.8 eta: n/a
+
+as of right now i don't feel like doing any coding as i've reached pretty much what i wanted to achieve with this script.
+i might come back for some time and do a bit of coding once in a while.
+
+there is no eta for the next update, don't expect anything to come out soon.
+
+what caused this drop in eagerness to continue updating and developing this script is mostly the reaction received after i published v0.7. i added a per-weapon legit backtrack option, which many people actually wanted, yet, to this day, there has been no reaction. i don't know how to feel about it - is everyone happy with it or does no one even care? without feedback i can't improve, and if i can't improve then what's the point of releasing low-quality and useless scripts?
+
+i genuinely thank everyone who appreciates and supports my work. to everyone else, if you like it, i'm glad. if you don't, well, that's too bad.
+
+i will still be accepting further feedback related to my script and will implement highly-requested features (when someone actually requests something).
+
+important info related to v1.0:
+due to constant aimware crashes for reasons unbeknownst to man i decided to call off the project. while it was going smoothly at first, it became apparent that i lack the concentration and motivation necessary to create and maintain a fully custom menu based on a lua api that's bound to change one day.
+
+
+
+
+
+
+
+v0.8 eta: soon :)
 - added shadow modulation
   -- for the best result use highest shadow quality
 - added fog modulation
+  - (to-do) custom colours for fog
 - added the option to change aimware menu icon (previously it was random and you couldn't change it back to default)
-- (to-do) custom colours for fog
 
 
-v1.0 eta: n/a
+
+v1.0 eta: not soon :(
 - (planned) bomb information with 2 different styles
 - (planned) chams support for esp toggle
 - (planned) remove old indicators style
