@@ -113,10 +113,10 @@ v1.0 eta: not soon :(
 - (planned) chams support for esp toggle
 - (planned) remove old indicators style
 - custom menu
-  * custom menu is coming along nicely, but there are quite a few drawbacks for making one, for example
+  - custom menu is coming along nicely, but there are quite a few drawbacks for making one, for example
     - all menu elements have to be written from scratch
     - while something like checkboxes is easy to make, a combobox is a bit more challenging, it's taken me so long to try and figure it all out that i might be going crazy a little bit
     - some people might not like the style of the menu, but i can't do anything about that
     - a lot remains to be done and that's not counting everything else i wanted to add, such as bomb info and more
 
-  post your suggestions on the forums or dm me on discord @ BlueElixir#0001
+  post your suggestions on the forums or join my [Discord server](https://discord.gg/XCpTmK8DAw)
