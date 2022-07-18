@@ -42,6 +42,6 @@ As of now, support will only be provided if you use up-to-date versions of the s
 
 ## Reporting Issues
 
-Report any issues related to my scripts by creating an Issue on github or contacting me directly on discord @ BlueElixir#0985
+Report any issues related to my scripts by creating an Issue on github or contacting me directly on discord on my [Discord Server](https://discord.gg/XCpTmK8DAw).
 
 If you find a bug/error/problem or something of similar sort in an older-than-supported version, please, do not report it, unless you can repeat the issue on the latest supported version.
