@@ -1,7 +1,3 @@
-# aimware-luas
-LUA scripts made for aimware.net
-
-
 # moonlight version support information
 
 ## Supported Versions
@@ -20,9 +16,10 @@ Report any issues related to my scripts by creating an Issue on github or contac
 If you find a bug/error/problem or something of similar sort in an older-than-supported version, please, do not report it, unless you can repeat the issue on the latest supported version.
 
 
+
 ## FAQ
 
-#### How do I install these LUA scripts?
+#### How do I install LUA scripts?
 
   1. Open the aimware menu.
   2. Go to "Settings" (at the top) -> "Lua Scripts" (on the left)
@@ -38,11 +35,3 @@ If you find a bug/error/problem or something of similar sort in an older-than-su
 3. Drag the .lua file you downloaded into your aimware lua/config folder.
 4. In the LUA list, press "Refresh List"
 5. In the LUA list, choose the script and press "Load".
-
-#### How do I use these LUA scripts?
-
-  Each script has its own usage scenario. For example, "Legit" scripts should be used when playing Legit. 
-  Every script is unique, so there will be instructions on how to use it.
-
-
-**If you need some lua script but you can't find it anywhere pm 404765 on forums or make an issue with your suggestion**
