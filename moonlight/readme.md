@@ -100,18 +100,23 @@ due to constant aimware crashes for reasons unbeknownst to man i decided to call
 
 <br><br><br>
 
-v0.8 eta: soon :)
-- added shadow modulation
- - for the best result use highest shadow quality
-- added fog modulation
-  - (to-do) custom colours for fog
+v0.8 eta: maybe before 1st Aug (or not)
+- added world modulation (ESP tab)
+  - added shadow modulation
+    - for the best result use highest shadow quality
+  - added fog modulation
+    - (to-do) custom colours for fog
 - added the option to change aimware menu icon (previously it was random and you couldn't change it back to default)
+- (to-do) chams support for esp toggle
+- (to-do) remove old indicators
+- (to-do) semirage tab (built for legitbot)
+  - (to-do) antiaim inverter
+  - (to-do) per-weapon silent aimbot
+  - (to-do) per-weapon resolver
 
 <br><br><br>
 v1.0 eta: not soon :(
 - (planned) bomb information with 2 different styles
-- (planned) chams support for esp toggle
-- (planned) remove old indicators style
 - (scrapped) custom menu
 
   Post your suggestions on the forums or join my [Discord server](https://discord.gg/XCpTmK8DAw) 
