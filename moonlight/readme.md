@@ -105,10 +105,10 @@ v0.8 eta: maybe before 1st Aug (or not)
   - added shadow modulation
     - for the best result use highest shadow quality
   - added fog modulation
-    - (to-do) custom colours for fog
+    - custom colours for fog
 - added the option to change aimware menu icon (previously it was random and you couldn't change it back to default)
+- removed old indicators (i noticed switching to old indicators kinda messed up the menu so yeah also nobody uses them i think)
 - (to-do) chams support for esp toggle
-- (to-do) remove old indicators
 - (to-do) semirage tab (built for legitbot)
   - (to-do) antiaim inverter
   - (to-do) per-weapon silent aimbot
