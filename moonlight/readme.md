@@ -108,7 +108,12 @@ v0.8 eta: maybe before 1st Aug (or not)
     - custom colours for fog
 - added the option to change aimware menu icon (previously it was random and you couldn't change it back to default)
 - removed old indicators (i noticed switching to old indicators kinda messed up the menu so yeah also nobody uses them i think)
-- (to-do) chams support for esp toggle
+- chams support for esp toggle
+  - for now, only enemy+other chams are supported. it's also a different checkbox from "ESP Toggle".
+  - TIP: save your config with "Toggle Chams" turned ON, otherwise your chams settings WILL BE RESET!
+  - thanks m0nsterJ and Chicken4676 for helping with this a bit.
+  
+moved to v0.9
 - (to-do) semirage tab (built for legitbot)
   - (to-do) antiaim inverter
   - (to-do) per-weapon silent aimbot
