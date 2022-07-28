@@ -100,7 +100,7 @@ due to constant aimware crashes for reasons unbeknownst to man i decided to call
 
 <br><br><br>
 
-v0.8 eta: maybe before 1st Aug (or not)
+v0.8 28/07/2022
 - added world modulation (ESP tab)
   - added shadow modulation
     - for the best result use highest shadow quality
@@ -112,9 +112,11 @@ v0.8 eta: maybe before 1st Aug (or not)
   - for now, only enemy+other chams are supported. it's also a different checkbox from "ESP Toggle".
   - TIP: save your config with "Toggle Chams" turned ON, otherwise your chams settings WILL BE RESET!
   - thanks m0nsterJ and Chicken4676 for helping with this a bit.
+
+FULL CHANGELOG: https://www.xbluescripts.xyz/scripts/moonlight/changelog
   
 moved to v0.9
-- (to-do) semirage tab (built for legitbot)
+- (to-do) semirage tab (built for legitbot/ragebot)
   - (to-do) antiaim inverter
   - (to-do) per-weapon silent aimbot
   - (to-do) per-weapon resolver
