@@ -21,7 +21,7 @@ if scriptVersion == latestScriptVersion then
 elseif scriptVersion < latestScriptVersion then
 	print("\n\nYou're running an older or modified version of moonlight (v" .. scriptVersion .. ")!")
 	print("Latest offical version: v" .. latestScriptVersion)
-	print("Get it @ https://blueelixir.github.io/aimware-luas/")
+	print("Get it @ https://www.xbluescripts.xyz/scripts/moonlight/")
 else
 	print("\n\nYou're running a modified version of moonlight (v" .. scriptVersion .. ")!")
 end
@@ -182,7 +182,7 @@ if scriptVersion < latestScriptVersion then
 		end)
 	end)
 	local moonlightWebsite = gui.Button(mainScriptInfoBox, "Website", function()
-		panorama.RunScript('SteamOverlayAPI.OpenExternalBrowserURL("https://blueelixir.github.io/aimware-luas/")')
+		panorama.RunScript('SteamOverlayAPI.OpenExternalBrowserURL("https://www.xbluescripts.xyz/scripts/moonlight/")')
 	end)
 elseif scriptVersion ~= latestScriptVersion then
 	local warnUserAboutUpdate = gui.Text(mainScriptInfoBox, "You are using a modified version of moonlight!\nCurrently running v" .. scriptVersion .. ", latest release: v" .. latestScriptVersion)
