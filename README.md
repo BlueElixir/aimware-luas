@@ -7,8 +7,8 @@ As of now, support will only be provided if you use up-to-date versions of the s
 | Version | Supported          |
 | ------- | ------------------ |
 | BETA    | :white_check_mark: For support with beta (pre-release) builds, join my Discord server. |
-| 0.8     | :white_check_mark: |
-| < 0.7   | :x:                |
+| 0.8.3    | :white_check_mark: |
+| < 0.8.3   | :x:                |
 
 ## Reporting Issues
 
