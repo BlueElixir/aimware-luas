@@ -4,10 +4,11 @@ if ($obs) {
     Write-Host "     Close OBS.      " -BackgroundColor Red -ForegroundColor White
     return
 }
-if ($csgo) {
-    Write-Host "     Close CSGO.     " -BackgroundColor Red -ForegroundColor White
-    return
-}
+
+# if ($csgo) {
+#    Write-Host "     Close CSGO.     " -BackgroundColor Red -ForegroundColor White
+#    return
+#}
 
 $DesktopPath = [Environment]::GetFolderPath("Desktop")
 Write-Progress "got desktop path, downloading obs patch"
@@ -44,7 +45,7 @@ Write-Progress "operation finished"
 
 Write-Host "                                                                                   " -BackgroundColor Black -ForegroundColor White
 Write-Host "                                                                                   " -BackgroundColor Black -ForegroundColor White
-Write-Host "                 Operation completed. Please restart CS:GO and OBS.                " -BackgroundColor Black -ForegroundColor White
+Write-Host "                       Operation completed. Please start OBS.                      " -BackgroundColor Black -ForegroundColor White
 Write-Host "             If the patch failed, please contact me @ BlueElixir#0985.             " -BackgroundColor Black -ForegroundColor White
-Write-Host "                                                                                   " -BackgroundColor Black -ForegroundColor White
+Write-Host "                      If it didn't work, try closing CSGO too.                     " -BackgroundColor Black -ForegroundColor White
 Write-Host "                                                                                   " -BackgroundColor Black -ForegroundColor White
