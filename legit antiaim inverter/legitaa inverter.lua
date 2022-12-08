@@ -7,75 +7,73 @@
 -- not recommended to use more than 1 symbol, it doesn't look nice
 --
 -- you can also change the size, though i recommend sticking with 30
--- changing thickness is also not recommended, but if you want, go right ahead
+-- changing indicator_thickness is also not recommended, but if you want, go right ahead
 
-local leftIndicator = "<"				-- custom symbol, <, L, 🠈
-local rightIndicator = ">"				-- custom symbol, >, R, 🠊
-local indicatorSize = 30				-- any size, not recommended to change
-local thickness = 900					-- from 100 to 900
+local left_indicator_symbol = "<"				-- custom symbol, <, L, 🠈
+local right_indicator_symbol = ">"				-- custom symbol, >, R, 🠊
+local indicator_size = 30				        -- any size, not recommended to change
+local indicator_thickness = 900					-- from 100 to 900
 
 local aatab = gui.Reference("Legitbot", "Semirage")
 local aabox = gui.Groupbox(aatab, "Anti-Aim Inverter", 16, 360, 297, 200)
-local aatoggle = gui.Checkbox(aabox, "aatoggle", "Toggle Inverter", false)
-local aainv = gui.Keybox(aabox, "aainvkey", "Anti-Aim Inverter", 0)
-local aasideind = gui.Checkbox(aabox, "aaindicator", "Anti-Aim Side Indicator", false)
-local aaindcolour = gui.ColorPicker(aasideind, "aaindcolour", "Indicator Colour", 255, 255, 255, 255)
-local offset = gui.Slider(aabox, "aaindoffset", "Indicator Offset", "0", "0", "200")
+local aa_toggle = gui.Checkbox(aabox, "aa_toggle", "Toggle Inverter", false)
+local aa_inverter_keybox = gui.Keybox(aabox, "aainvkey", "Anti-Aim Inverter", 0)
+local aa_indicator_box = gui.Checkbox(aabox, "aaindicator", "Anti-Aim Side Indicator", false)
+local aa_indicator_colour = gui.ColorPicker(aa_indicator_box, "aa_indicator_colour", "Indicator Colour", 255, 255, 255, 255)
+local aa_indicator_offset = gui.Slider(aabox, "aaindoffset", "Indicator Offset", 0, 0, 200)
 local screenwidth, screenheight = draw.GetScreenSize()
-local leftind = screenwidth/2 - 50
-local rightind = screenwidth/2 + 30
-local indheight = screenheight/2 - 10
-local font = draw.CreateFont("Verdana", indicatorSize, thickness)
+local left_indicator_position = screenwidth/2 - 50
+local right_indicator_position = screenwidth/2 + 30
+local font = draw.CreateFont("Verdana", indicator_size, indicator_thickness)
 
 --vars
-local aaleft = "lbot.antiaim.leftkey"
-local aaright = "lbot.antiaim.rightkey"
-local value = 1
+local aa_left_key = "lbot.antiaim.leftkey"
+local aa_right_key = "lbot.antiaim.rightkey"
+local temp = 1
 
 local function AAInverter()
-    if aatoggle:GetValue() == true and gui.GetValue("lbot.master") == true then
-		if aainv:GetValue() ~= 0 and gui.GetValue("lbot.antiaim.type") ~= '"Off"' then
-			gui.SetValue("lbot.antiaim.direction", 1)
-			if input.IsButtonPressed(aainv:GetValue()) then
+    if aa_toggle:GetValue() == true and gui.GetValue("lbot.master") == true then
+		if aa_inverter_keybox:GetValue() ~= 0 and gui.GetValue("lbot.antiaim.type") ~= '"Off"' then
+			if input.IsButtonPressed(aa_inverter_keybox:GetValue()) then
 				if not gui.Reference("Menu"):IsActive() then
-					if value == 1 then
-						gui.SetValue(aaleft, 0)
-						gui.SetValue(aaright, aainv:GetValue())
-						value = 2
-					elseif value == 2 then
-						gui.SetValue(aaleft, aainv:GetValue())
-						gui.SetValue(aaright, 0)
-						value = 1
+					if temp == 1 then
+						gui.SetValue(aa_left_key, 0)
+						gui.SetValue(aa_right_key, aa_inverter_keybox:GetValue())
+						temp = 2
+					elseif temp == 2 then
+						gui.SetValue(aa_left_key, aa_inverter_keybox:GetValue())
+						gui.SetValue(aa_right_key, 0)
+						temp = 1
       	          else
      	               local var = math.random(1, 100)
             	        if var > 50 then
-                 	    	gui.SetValue(aaleft, aainv:GetValue())
-							value = 1
+                 	    	gui.SetValue(aa_left_key, aa_inverter_keybox:GetValue())
+							temp = 1
                		     else
-							gui.SetValue(aaright, aainv:GetValue())
-							value = 2
+							gui.SetValue(aa_right_key, aa_inverter_keybox:GetValue())
+							temp = 2
 						end
 					end
 				end
 			end
 		end
-		if aasideind:GetValue() == true then
+		if aa_indicator_box:GetValue() == true then
 			draw.SetFont(font)
 			
-			if value == 2 and gui.GetValue("lbot.antiaim.type") ~= '"Off"' then
-				draw.Color(aaindcolour:GetValue())
-				draw.Text(rightind+offset:GetValue(), screenheight/2-10, rightIndicator)
+			if temp == 1 and gui.GetValue("lbot.antiaim.type") ~= '"Off"' then
+				draw.Color(aa_indicator_colour:GetValue())
+				draw.Text(right_indicator_position+aa_indicator_offset:GetValue(), screenheight/2-10, right_indicator_symbol)
 				draw.Color(107, 107, 107, 150)
-				draw.Text(leftind-offset:GetValue(), screenheight/2-10, leftIndicator)
-			elseif value == 1 and gui.GetValue("lbot.antiaim.type") ~= '"Off"' then
-				draw.Color(aaindcolour:GetValue())
-				draw.Text(leftind-offset:GetValue(), screenheight/2-10, leftIndicator)
+				draw.Text(left_indicator_position-aa_indicator_offset:GetValue(), screenheight/2-10, left_indicator_symbol)
+			elseif temp == 2 and gui.GetValue("lbot.antiaim.type") ~= '"Off"' then
+				draw.Color(aa_indicator_colour:GetValue())
+				draw.Text(left_indicator_position-aa_indicator_offset:GetValue(), screenheight/2-10, left_indicator_symbol)
 				draw.Color(107, 107, 107, 150)
-				draw.Text(rightind+offset:GetValue(), screenheight/2-10, rightIndicator)
+				draw.Text(right_indicator_position+aa_indicator_offset:GetValue(), screenheight/2-10, right_indicator_symbol)
 			else
 				draw.Color(107, 107, 107, 150)
-				draw.Text(leftind-offset:GetValue(), screenheight/2-10, leftIndicator)
-				draw.Text(rightind+offset:GetValue(), screenheight/2-10, rightIndicator)
+				draw.Text(left_indicator_position-aa_indicator_offset:GetValue(), screenheight/2-10, left_indicator_symbol)
+				draw.Text(right_indicator_position+aa_indicator_offset:GetValue(), screenheight/2-10, right_indicator_symbol)
 			end
 		end
     end
@@ -83,7 +81,7 @@ end
 
 callbacks.Register("Draw", AAInverter)
 
-aatoggle:SetDescription("Enable anti-aim inverter.")
-aainv:SetDescription("Choose the inverter keybind.")
-aasideind:SetDescription("Enable anti-aim side indicator.")
-offset:SetDescription("Adjust horizontal indicator position.")
+aa_toggle:SetDescription("Enable anti-aim inverter.")
+aa_inverter_keybox:SetDescription("Choose the inverter keybind.")
+aa_indicator_box:SetDescription("Enable anti-aim side indicator.")
+aa_indicator_offset:SetDescription("Adjust horizontal indicator position.")
