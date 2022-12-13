@@ -833,14 +833,16 @@ callbacks.Register("Draw", function()
 		end
 		if forceCrosshair:GetValue() then
 			local lp =  entities.GetLocalPlayer()
-			if lp:IsAlive() then
-				if lp:GetPropBool("m_bIsScoped") then
-					setConVar("weapon_debug_spread_show", 0, true)
+			if lp then
+				if lp:IsAlive() then
+					if lp:GetPropBool("m_bIsScoped") then
+						setConVar("weapon_debug_spread_show", 0, true)
+					else
+						setConVar("weapon_debug_spread_show", 3, true)
+					end
 				else
-					setConVar("weapon_debug_spread_show", 3, true)
+					setConVar("weapon_debug_spread_show", 0, true)
 				end
-			else
-				setConVar("weapon_debug_spread_show", 0, true)
 			end
 		else
 			setConVar("weapon_debug_spread_show", 0, true)
